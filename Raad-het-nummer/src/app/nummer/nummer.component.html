@@ -1,0 +1,17 @@
+
+
+
+<p>nummer works!</p>
+
+<p>
+  <button (click)="Genereer()">Generate the number</button>
+</p>
+
+<p>
+<input (focus)="Geluk()" #gokje type="text" onfocus="this.value=''">
+<button (click)="Guess(gokje.value)" >Submit my guess</button> 
+</p>
+
+<h2>{{result}}</h2>
+
+
